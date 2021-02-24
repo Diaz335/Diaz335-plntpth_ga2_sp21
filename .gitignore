@@ -1,3 +1,4 @@
 data/fastq/*.fastq
 
 *.fastq
+*.fastq

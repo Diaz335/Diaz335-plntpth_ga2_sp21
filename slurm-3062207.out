@@ -1,0 +1,125 @@
+infered fastq /fs/ess/PAS1855/users/diaz335/ass2/data/fastq/201-S4-V4-V5_S53_L001_R2_001.fastq
+Trimmed forward read /fs/ess/PAS1855/users/diaz335/ass2/results/trim/201-S4-V4-V5_S53_L001_R1_001_trimmed.fastq
+Trimmed reverse read /fs/ess/PAS1855/users/diaz335/ass2/results/trim/201-S4-V4-V5_S53_L001_R2_001_trimmed.fastq
+This is cutadapt 3.2 with Python 3.8.8
+Command line parameters: -a GAGTGYCAGCMGCCGCGGTAA...GAGTGYCAGCMGCCGCGGTAA -A TTACCGCGGCKGCTGRCACTC...TTACCGCGGCKGCTGRCACTC --discard-untrimmed --pair-filter=any -o /fs/ess/PAS1855/users/diaz335/ass2/results/trim/201-S4-V4-V5_S53_L001_R1_001_trimmed.fastq -p /fs/ess/PAS1855/users/diaz335/ass2/results/trim/201-S4-V4-V5_S53_L001_R2_001_trimmed.fastq /fs/ess/PAS1855/users/diaz335/ass2/data/fastq/201-S4-V4-V5_S53_L001_R1_001.fastq /fs/ess/PAS1855/users/diaz335/ass2/data/fastq/201-S4-V4-V5_S53_L001_R2_001.fastq
+Processing reads on 1 core in paired-end mode ...
+Finished in 3.01 s (64 µs/read; 0.94 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             47,070
+  Read 1 with adapter:                  46,922 (99.7%)
+  Read 2 with adapter:                  43,737 (92.9%)
+Pairs written (passing filters):        43,654 (92.7%)
+
+Total basepairs processed:    28,074,076 bp
+  Read 1:    14,069,195 bp
+  Read 2:    14,004,881 bp
+Total written (filtered):     23,946,860 bp (85.3%)
+  Read 1:    11,522,310 bp
+  Read 2:    12,424,550 bp
+
+=== First read: Adapter 3 ===
+
+Sequence: GAGTGYCAGCMGCCGCGGTAA...GAGTGYCAGCMGCCGCGGTAA; Type: linked; Length: 21+21; 5' trimmed: 46920 times; 3' trimmed: 99 times
+
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences at 5' end
+length	count	expect	max.err	error counts
+11	1	0.0	1	0 1
+20	3	0.0	2	0 1 2
+21	1	0.0	2	0 1
+22	3	0.0	2	1 1 1
+23	3	0.0	2	1 2
+24	5	0.0	2	3 0 2
+25	4	0.0	2	3 0 1
+26	11	0.0	2	6 3 2
+27	3	0.0	2	2 0 1
+28	10	0.0	2	7 2 1
+29	17	0.0	2	12 1 4
+30	18	0.0	2	9 7 2
+31	49	0.0	2	43 1 5
+32	42	0.0	2	22 5 15
+33	219	0.0	2	55 58 106
+34	1627	0.0	2	546 1054 27
+35	44535	0.0	2	43935 575 25
+36	63	0.0	2	36 20 7
+37	299	0.0	2	0 0 299
+38	7	0.0	2	6 1
+
+
+
+Overview of removed sequences at 3' end
+length	count	expect	max.err	error counts
+3	96	735.5	0	96
+4	3	183.9	0	3
+
+
+=== Second read: Adapter 6 ===
+
+Sequence: TTACCGCGGCKGCTGRCACTC...TTACCGCGGCKGCTGRCACTC; Type: linked; Length: 21+21; 5' trimmed: 77 times; 3' trimmed: 43660 times
+
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences at 5' end
+length	count	expect	max.err	error counts
+3	3	735.5	0	3
+36	1	0.0	2	0 1
+159	1	0.0	2	0 1
+160	1	0.0	2	1
+218	1	0.0	2	0 0 1
+219	2	0.0	2	2
+243	1	0.0	2	0 1
+252	1	0.0	2	0 1
+253	1	0.0	2	1
+255	1	0.0	2	0 1
+258	1	0.0	2	1
+271	1	0.0	2	1
+274	1	0.0	2	1
+275	2	0.0	2	2
+276	2	0.0	2	2
+288	1	0.0	2	1
+290	1	0.0	2	1
+291	1	0.0	2	1
+292	1	0.0	2	1
+293	1	0.0	2	0 1
+294	3	0.0	2	3
+295	2	0.0	2	2
+296	1	0.0	2	0 1
+297	3	0.0	2	2 1
+298	4	0.0	2	1 2 1
+299	39	0.0	2	4 9 26
+
+
+
+Overview of removed sequences at 3' end
+length	count	expect	max.err	error counts
+3	8	735.5	0	8
+4	4	183.9	0	4
+5	1	46.0	0	1
+7	1	2.9	0	1
+8	2	0.7	0	2
+9	44	0.2	0	44
+10	4	0.0	1	3 1
+11	64	0.0	1	40 24
+12	37185	0.0	1	33881 3304
+13	1336	0.0	1	1054 282
+14	1101	0.0	1	621 480
+15	2444	0.0	1	177 2267
+16	1377	0.0	1	1173 204
+17	41	0.0	1	30 11
+18	46	0.0	1	35 11
+19	1	0.0	1	0 1
+20	1	0.0	2	0 0 1

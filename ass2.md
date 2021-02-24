@@ -97,6 +97,7 @@ cutadapt -a "$fwdprimer"..."$primer_r_rc" \
 
 sbatch cutadapt_single.sh "$R1_fw" "$output_dir" “$fwdprimer” “$revprimer”
 git add --all
+git add cutadapt_single.sh
 git status
 git commit -m "added all files"
 
@@ -104,3 +105,4 @@ git remote add origin https://github.com/Diaz335/plntpth_sp21_ga2
 git branch -M main
 git push -u origin main
 git push 
+git remote -v

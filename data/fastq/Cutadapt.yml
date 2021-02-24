@@ -1,0 +1,8 @@
+name: Cutadapt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+prefix: /users/PAS1707/diaz335/.conda/envs/Cutadapt
+
